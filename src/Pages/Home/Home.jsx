@@ -1,10 +1,12 @@
 import Navbar from "../../Components/Common/Navbar";
+import HeroHomes from "./HeroHomes";
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="">
            <Navbar />
+           <HeroHomes />
         </div>
     );
 };

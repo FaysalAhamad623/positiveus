@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center'>
+        <nav className='flex justify-between items-center my-[60px]'>
             <img className='h-14' src="/images/logo.png" alt="" />
            <ul className='flex gap-10 items-center'>
             <li>
